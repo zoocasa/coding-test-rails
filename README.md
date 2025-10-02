@@ -4,11 +4,18 @@
 
 **Format:** a 45 min pair programming session followed by 15 minutes of discussion and feedback.
 
-**Goal:** We'll be creating a new Ruby (Rails Framework) listing service with API endpoints pairing with Test Driven Development Principles.
+**Goal:** We'll be creating a new Ruby (Rails Framework) listing service with API endpoints pairing with Test Driven Development Principles. The listing Data Model will be:
+
+Listing schema (as used in specs)
+- `id`: integer
+- `street_address`: string
+- `price`: integer, 0..10_000_000_000
+- `status`: `for_sale` | `sold` | `expired`
+- `city`: string
 
 **Preparation:** Candidate should have a Ruby 3 > development environment set up on their computer and be prepared to screen share as we work together. Candidate should have this minimal repository running locally and have completed all setup tasks such that the server can start and running tests results in failing tests.
 
-> [!TIP]
+> [!IMPORTANT]
 > We're simulating a regular work day so the candidate is allowed to Google anything during the test (we don't expect you to have syntax memorized). If you use an IDE with AI (such as Cursor) be prepared to explain any generated code and why it does or does not work. The most successful candidates share their thoughts as they work, what ideas they have and what they're trying to do.
 
 **Constraints:**
